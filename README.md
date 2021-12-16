@@ -7,7 +7,7 @@ The main game concept is easy. Players take turns in tossing cards onto the tabl
 
 The deck card ranks are A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, and K. Deck card suits include ♦, ♥, ♠, ♣. A card is represented by a rank and a suit. The whole deck includes K♣, Q♣, J♣, 10♣, 9♣, 8♣, 7♣, 6♣, 5♣, 4♣, 3♣, 2♣, A♣, K♦, Q♦, J♦, 10♦, 9♦, 8♦, 7♦, 6♦, 5♦, 4♦, 3♦, 2♦, A♦, K♥, Q♥, J♥, 10♥, 9♥, 8♥, 7♥, 6♥, 5♥, 4♥, 3♥, 2♥, A♥, K♠, Q♠, J♠, 10♠, 9♠, 8♠, 7♠, 6♠, 5♠, 4♠, 3♠, 2♠, A♠.
 
-##Game rules
+###Game rules
 The game rules are easy:
 1. Four cards are placed face-up on the table;
 2. Six cards are dealt to each player;
@@ -19,7 +19,7 @@ When a card with the same suit or rank as the top card on the table is played, t
 
 The program should also count the points of each player, so develop a point system. The cards with the ranks A, 10, J, Q, K get 1 point each, while the player who has the most cards gets three points. If the players have the same number of cards, then the player who played first gets these points. The total points in this game are 23. The player with the most points wins the game.
 
-##Computer play strategy
+###Computer play strategy
 From now on, we will introduce the term the candidate cards. They are the cards in hand that can win the cards on the table.
 
 The strategy is as follows:
@@ -40,7 +40,7 @@ The strategy is as follows:
 
 The strategy above can be improved. Moreover, the computer can play even better if it keeps track of the cards that have been played. However, our goal isn't a complex algorithm for the computer, but to learn how to apply the strategy.
 
-##Examples
+###Examples
 The greater-than symbol followed by a space (> ) represents the user input. Note that it's not part of the input.
 ```
 Indigo Card Game
